@@ -1,0 +1,43 @@
+# Maven build output
+/target/
+
+# Eclipse project metadata (kept locally, but not required in source control)
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+*.class
+*.war
+*.ear
+
+# Logs and generated runtime/database files
+*.log
+*.tmp
+*.bak
+*.pid
+hs_err_pid*
+logs/
+tomcat-logs/
+*.db
+*.sqlite
+*.sqlite3
+*.mv.db
+*.trace.db
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.local
+*.secrets
+secrets.*
+local.properties
+application-local.properties
+
+# React/Vite frontend dependencies and generated files
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
